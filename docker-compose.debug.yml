@@ -1,0 +1,13 @@
+version: '2.1'
+
+services:
+  docker-multi-stage-ng:
+    image: docker-multi-stage-ng
+    build: .
+    environment:
+      NODE_ENV: development
+    ports:
+      - 80:80
+      - 9229:9229
+    ## set your startup file here
+    command: node --inspect index.js
