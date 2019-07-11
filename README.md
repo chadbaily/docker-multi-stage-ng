@@ -1,3 +1,9 @@
+#General
+
+## References Used
+
+- https://medium.com/@tiangolo/angular-in-docker-with-nginx-supporting-environments-built-with-multi-stage-docker-builds-bb9f1724e984
+
 # MultiStageBuild
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.4.
